@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>form</title>
+    <style>
+      form {
+        margin: 0 auto;
+        border: 2px solid red;
+        background-color: blueviolet;
+      }
+
+      .container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 70%;
+        padding: 40px;
+        
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <form action="#">
+        <table>
+          <tr>
+            <td>USER Name:</td>
+            <td><input type="text" name="name" /></td>
+          </tr>
+          <tr>
+            <td>FULL Name:</td>
+            <td><input type="text" name="name" /></td>
+          </tr>
+          <tr>
+            <td>Password:</td>
+            <td><input type="text" name="name" /></td>
+          </tr>
+          <tr>
+            <td>Re-type Password:</td>
+            <td><input type="text" name="name" /></td>
+          </tr>
+
+          <tr>
+            <td>Gender:</td>
+
+            <td>
+              <input type="radio" name="Gender" id="female" /><label
+                for="female"
+                >Female</label
+              >
+              <input type="radio" name="Gender" id="male" /><label for="male"
+                >Male</label
+              >
+            </td>
+          </tr>
+
+          <tr>
+            <td>Language</td>
+            <td>
+              <select name="Language" id="lang">
+                <option value="bangla" for="lang">bANGLA</option>
+                <option value="bangla" for="lang">english</option>
+                <option value="bangla" for="lang">bANGLA</option>
+              </select>
+            </td>
+          </tr>
+
+          <tr>
+            <td for="add">Address:</td>
+            <td>
+              <textarea name="Address" id="add"></textarea>
+            </td>
+          </tr>
+
+          <tr>
+            <td>Certificate:</td>
+
+            <td>
+              <input type="checkbox" id="ssc" /><label for="ssc">SSC</label>
+              <input type="checkbox" id="hsc" /><label for="hsc">HSC</label>
+              <input type="checkbox" id="dip" /><label for="dip">DIPLOMA</label>
+              <input type="checkbox" id="bsc" /><label for="bsc">BSC</label>
+            </td>
+          </tr>
+
+          <tr>
+            <td>Photo:</td>
+            <td>
+              <textarea name="Photo" id=""></textarea>
+            </td>
+          </tr>
+
+          <tr>
+            <td>
+              <input type="button" name="button" id="btn " value="SUBMIT" />
+            </td>
+            <td>
+              <input type="RESET" name="button" id="Rbtn " value="RESET" />
+            </td>
+          </tr>
+        </table>
+      </form>
+    </div>
+  </body>
+</html>

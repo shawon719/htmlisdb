@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>iframe</title>
+  </head>
+  <body>
+    <div>
+      <div
+        style="float: left; width: 20%; height: 400px; background-color: aqua"
+      >
+        <ol type="none">
+          <li>
+            <button style="width: 200px; margin: 15px">
+              <a href="index.html" target="tt">Table</a>
+            </button>
+          </li>
+          <li>
+            <button style="width: 200px; margin: 15px">
+              <a href="form.html" target="tt">Form</a>
+            </button>
+          </li>
+          <li>
+            <button style="width: 200px; margin: 15px">
+              <a href="demo.html" target="tt">demo</a>
+            </button>
+          </li>
+        </ol>
+      </div>
+      <div
+        style="
+          overflow: hidden;
+          width: 70%;
+          height: 400px;
+          background-color: azure;
+        "
+      >
+        <iframe
+          src="demo.html"
+          frameborder="0"
+          name="tt"
+          style="min-height: 600px; width: 75%"
+        ></iframe>
+      </div>
+    </div>
+  </body>
+</html>
